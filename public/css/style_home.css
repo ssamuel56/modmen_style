@@ -1,22 +1,20 @@
 body {
-  width: 80%;
+  background-color: black;
+  width: 100%;
   margin: auto;
   text-align: center;
-  /* background-image: url("/images/classy_img.jpg"); */
 }
 
 .nav-container{
-margin-bottom: 4vw;
+margin-bottom: none;
 height: 40vw;
 background-image: url("/images/leather.jpg");
 background-repeat: no-repeat;
+overflow: hidden;
 }
 
 .header {
   color: white;
-  /* position: -webkit-sticky;
-  position: sticky; */
-  /* top: 0; */
 }
 
 .header > .nav, .title, .search {
@@ -42,13 +40,13 @@ a {
 }
 
 a:link, a:visited {
-  border: 3px solid rgba(0, 0, 0, 0);
+  border: 5px solid rgba(0, 0, 0, 0);
   text-decoration: none;
   color: white;
 }
 
 a:active, a:hover {
-  border: 3px dotted white;
+  border: 5px dotted white;
 }
 
 .main-content {

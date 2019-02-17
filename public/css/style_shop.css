@@ -1,8 +1,7 @@
 body {
-  width: 75%;
+  width: 100%;
   margin: auto;
   text-align: center;
-  /* background-image: url("/images/classy_img.jpg"); */
 }
 
 .nav-container{
@@ -42,16 +41,18 @@ a {
 }
 
 a:link, a:visited {
-  border: 3px solid rgba(0, 0, 0, 0);
+  border: 5px solid rgba(0, 0, 0, 0);
   text-decoration: none;
   color: white;
 }
 
 a:active, a:hover {
-  border: 3px dotted white;
+  border: 5px dotted white;
 }
 
 .main-content {
+  width: 70%;
+  margin: auto;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-row-gap: 3.5vw;
