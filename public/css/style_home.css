@@ -49,6 +49,12 @@ a:active, a:hover {
   border: 5px dotted white;
 }
 
+.cart > img {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
 .main-content {
   display: grid;
   grid-template-columns: auto auto auto;
